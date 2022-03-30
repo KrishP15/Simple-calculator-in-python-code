@@ -1,0 +1,42 @@
+x = float(input("What's x? "))
+
+y = float(input("What's y? "))
+
+operation = input ("What operation?")
+
+
+if operation == "+":
+    print(x + y)
+    quit()
+
+
+if operation == "-":
+    print(x - y)
+    quit()
+
+
+if operation == "*":
+    print(x * y)
+    quit()
+
+
+if operation == "/":
+    print(x / y)
+    quit()
+
+
+
+
+
+operation = operation.strip()
+addition = x + y
+print(addition)
+
+subtraction = x - y
+print(subtraction)
+
+multiplication = x*y
+print(multiplication)
+
+division = x/y
+print(division)
